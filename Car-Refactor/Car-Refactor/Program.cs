@@ -8,11 +8,6 @@ namespace CarRefactor
 {
     class Program
     {
-        /// <summary>
-        /// This application violate the SOLID design principle, that's why it's got exception, use the best of your refactoring skill to refactor this code to comply SOLID design principle
-        /// You're welcome to add as many as class you want to solve the problem
-        /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             List<Car> cars = new List<Car>
