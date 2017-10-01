@@ -27,7 +27,7 @@ namespace CarRefactor
         // moved them to base class so they can be used by both toyota and Mercedes objects
         public virtual int GetYearBuilt()
         {
-            Console.WriteLine(string.Format("Year built is {0} ******************working", YearBuilt));
+            Console.WriteLine(string.Format("Year built is {0}", YearBuilt));
             return YearBuilt;
         }
 
